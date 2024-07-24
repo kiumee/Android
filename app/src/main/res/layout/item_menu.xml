@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_item_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/iv_item_menu"
+            android:layout_width="260dp"
+            android:layout_height="0dp"
+            android:background="@drawable/shape_line_35_rect"
+            android:clipToOutline="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_no_sign"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_item_menu_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.body5_medium_38"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_item_menu"
+            app:layout_constraintTop_toTopOf="@id/iv_item_menu"
+            tools:text="메뉴명" />
+
+        <TextView
+            android:id="@+id/tv_item_menu_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.cap1_regular_36"
+            app:layout_constraintEnd_toEndOf="@id/tv_item_menu_name"
+            app:layout_constraintStart_toStartOf="@id/tv_item_menu_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_menu_name"
+            tools:text="메뉴 가격" />
+
+        <TextView
+            android:id="@+id/tv_item_menu_description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.cap2_regular_32"
+            android:textColor="@color/gray_12"
+            app:layout_constraintBottom_toBottomOf="@id/iv_item_menu"
+            app:layout_constraintEnd_toEndOf="@id/tv_item_menu_price"
+            app:layout_constraintStart_toStartOf="@id/tv_item_menu_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_menu_price"
+            tools:text="메뉴 설명" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

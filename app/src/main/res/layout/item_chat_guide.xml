@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_item_chat_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white_fill_25_rect"
+            android:backgroundTint="@color/gray_1"
+            android:elevation="4dp"
+            android:paddingHorizontal="23dp"
+            android:paddingVertical="13dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.cap2_regular_32"
+            android:textColor="@color/gray_12"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="이름이 뭐예요?" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kiumee</string>
+
+    <!-- 로그인 페이지 -->
+    <string name="login_id">아이디</string>
+    <string name="login_pw">비밀번호</string>
+    <string name="login_start">로그인하기</string>
+
+    <!-- 매장 선택 페이지 -->
+    <string name="store_empty">생성된 키오스크 폼이 없습니다.\n관리자 페이지에서 추가해주세요.</string>
+    <string name="store_choice">원하는 매장을 선택해주세요.</string>
+
+    <!-- 홈 페이지 -->
+    <string name="home_touch">주문하시려면 키우미에게 대화를 시작하거나\n화면을 터치해주세요.</string>
+
+    <!-- 메뉴 선택 페이지 -->
+    <string name="menu_tab_title">메뉴</string>
+    <string name="menu_cart_title">장바구니</string>
+    <string name="menu_cart_select">메뉴를 선택해주세요.</string>
+    <string name="menu_cart_total">합계</string>
+    <string name="menu_cart_order">주문하기</string>
+    <string name="menu_cart_back">돌아가기</string>
+    <string name="tv_menu_menu_close">대화로 돌아가기</string>
+
+    <!-- 주문 완료 페이지 -->
+    <string name="order_finish">주문이 접수되었습니다.\n10초 후 자동으로 메뉴 선택 화면으로 넘어갑니다.</string>
+
+</resources>

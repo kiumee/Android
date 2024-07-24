@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_gray7_line_20_rect"
+        android:clickable="true"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/iv_item_store"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/ic_no_sign"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_item_store_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.body4_regular_44"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_item_store"
+            tools:text="매장명" />
+
+        <TextView
+            android:id="@+id/tv_item_store_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.cap2_regular_32"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_store_name"
+            tools:text="매장 설명" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

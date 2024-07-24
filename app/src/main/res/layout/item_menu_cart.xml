@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_item_menu_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/tv_item_menu_cart_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Kiumee.body4_regular_44"
+            app:layout_constraintEnd_toStartOf="@id/ib_item_menu_cart_trash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="주문 메뉴명" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ib_item_menu_cart_trash"
+            android:layout_width="58dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/ic_menu_cart_trash"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_item_menu_cart_name" />
+
+        <TextView
+            android:id="@+id/tv_item_menu_cart_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/TextAppearance.Kiumee.body6_regular_38"
+            android:textColor="@color/gray_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_menu_cart_name"
+            tools:text="주문 메뉴 가격" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

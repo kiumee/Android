@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/appbar_store"
+            layout="@layout/view_appbar" />
+
+        <TextView
+            android:id="@+id/tv_store_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/store_choice"
+            android:textAppearance="@style/TextAppearance.Kiumee.head1_regular_66"
+            app:layout_constraintBottom_toTopOf="@id/rv_store"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appbar_store" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_store"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="30dp"
+            android:visibility="visible"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_store_title"
+            tools:listitem="@layout/item_store" />
+
+        <LinearLayout
+            android:id="@+id/layout_store_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appbar_store">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/av_store_empty"
+                android:layout_width="550dp"
+                android:layout_height="300dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/lottie_empty" />
+
+            <TextView
+                android:id="@+id/tv_store_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="@string/store_empty"
+                android:textAppearance="@style/TextAppearance.Kiumee.head1_regular_66" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

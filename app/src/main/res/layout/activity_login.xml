@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/appbar_login"
+            layout="@layout/view_appbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="350dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/btn_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appbar_login">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_login_id"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:background="@color/white"
+                app:boxBackgroundColor="@color/white"
+                app:counterMaxLength="10"
+                app:hintTextAppearance="@style/TextAppearance.Kiumee.cap1_regular_36">
+
+                <EditText
+                    android:id="@+id/et_login_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/login_id"
+                    android:paddingTop="60dp"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Kiumee.body4_regular_44" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_login_pw"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:boxBackgroundColor="@color/white"
+                app:hintTextAppearance="@style/TextAppearance.Kiumee.cap1_regular_36"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/et_login_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/login_pw"
+                    android:inputType="textPassword"
+                    android:paddingTop="60dp"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Kiumee.body4_regular_44" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="370dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/shape_gray7_line_10_rect"
+            android:enabled="false"
+            android:paddingVertical="18dp"
+            android:text="@string/login_start"
+            android:textAppearance="@style/TextAppearance.Kiumee.head4_regular_54"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
