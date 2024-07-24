@@ -24,5 +24,7 @@
 
     <!-- 주문 완료 페이지 -->
     <string name="order_finish">주문이 접수되었습니다.\n10초 후 자동으로 메뉴 선택 화면으로 넘어갑니다.</string>
+    <string name="menu_speak_btn">대화\n켜기</string>
+    <string name="chat_jumi_name">주미</string>
 
 </resources>

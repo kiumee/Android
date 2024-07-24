@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="주미"
+                android:text="@string/chat_jumi_name"
                 android:textAppearance="@style/TextAppearance.Kiumee.body5_medium_38" />
 
         </LinearLayout>
