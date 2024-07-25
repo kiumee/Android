@@ -64,7 +64,7 @@ class MenuActivity : BindingActivity<ActivityMenuBinding>(R.layout.activity_menu
     private val chatList = mutableListOf(
         ChatEntity(
             viewType = VIEW_TYPE_JUMI,
-            content = "주미에게 버튼을 눌러 대화를 걸어보세요."
+            content = "키우미에게 버튼을 눌러 대화를 걸어보세요."
         )
     )
     var receiveNowCartInfo = false
