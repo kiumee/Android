@@ -21,10 +21,10 @@
     <string name="menu_cart_order">주문하기</string>
     <string name="menu_cart_back">돌아가기</string>
     <string name="tv_menu_menu_close">대화로 돌아가기</string>
+    <string name="menu_speak_btn">대화\n켜기</string>
+    <string name="chat_jumi_name">키우미</string>
 
     <!-- 주문 완료 페이지 -->
     <string name="order_finish">주문이 접수되었습니다.\n10초 후 자동으로 메뉴 선택 화면으로 넘어갑니다.</string>
-    <string name="menu_speak_btn">대화\n켜기</string>
-    <string name="chat_jumi_name">주미</string>
 
 </resources>
