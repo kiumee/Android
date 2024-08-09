@@ -58,6 +58,94 @@ Through conversation, Kiumee not only handles orders like traditional staff but 
 ### 통계자료
 관리자 페이지에서 매장의 매출 내역을 확인하고 비교할 수 있어요. 다양한 그래프를 통해 관리자가 편하게 동향을 파악할 수 있어요.
 
-#### 주문내역 확인
+### 주문내역 확인
 관리자가 주문내역과 고객의 대화 내역을 확인/추적하여 키우미가 고객 요구에 적절한 대응을 했는지 확인할 수 있어요.
+
+# 🤖 팀원 소개
+<table>
+    <tr align="center">
+        <td style="min-width: 150px;">
+            <a href="https://github.com/Roel4990">
+              <img src="https://github.com/kookmin-sw/capstone-2024-24/assets/93641814/4977f984-0166-402e-923f-dc5329e0e310" width="100">
+              <br />
+              <b>안세홍</b>
+            </a> 
+        </td>
+        <td style="min-width: 150px;">
+            <a href="https://github.com/Eonji-sw">
+              <img src="https://github.com/kookmin-sw/capstone-2024-24/assets/93641814/3abed7fd-7d59-4147-a50d-52a6ac8840b6" width="100">
+              <br />
+              <b>김언지</b>
+            </a> 
+        </td>
+        <td style="min-width: 150px;">
+            <a href="https://github.com/devkaspee">
+              <img src="https://github.com/kookmin-sw/capstone-2024-24/assets/57210308/17035fbe-52d6-41dd-b69e-154ab19fcfb9" width="100">
+              <br />
+              <b>임호준</b>
+            </a>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            Frontend/Web, TL
+        </td>
+        <td>
+            Android
+        </td>
+        <td>
+            Backend
+        </td>
+    </tr>
+</table>
+
+# 🛠 기술 스택
+
+## 🖥 Frontend
+|역할|종류|
+|-|-|
+|Library|<img alt="RED" src ="https://img.shields.io/badge/REACT-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=white"/>|
+|UI Framework|![mui](https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white)|
+|Programming Language|![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)|
+|Formatting|![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)|
+|Data Fetching|![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)|
+|Package Manager|![Npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)|                                         
+|CI/CD|![Vercel](https://img.shields.io/badge/vercel-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)|
+<br />
+
+## 🖥 Android
+|역할|종류|
+|-|-|
+|Development Environment and Tools|![Androidstudio](https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)|
+|Platform|![Android](https://img.shields.io/badge/android-34A853?style=for-the-badge&logo=android&logoColor=white)|    
+|Programming Language|![Kotlin](https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)|     
+<br />
+
+## 🖥 Backend
+|역할|종류|
+|-|-|
+|Framework|![Fastapi](https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![serverless](https://img.shields.io/badge/serverless-FD5750?style=for-the-badge&logo=serverless&logoColor=white)|
+|Database|![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)|    
+|Database Service|![amazonrds](https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white) ![amazons3](https://img.shields.io/badge/amazons3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)|
+|Programming Language|![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)|
+|CI/CD|![githubactions](https://img.shields.io/badge/githubactions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)|
+<br />
+
+## 🖥 AI
+|역할|종류|
+|-|-|
+|Framework|![pytorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)| 
+|Programming Language|![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)|
+<br />
+
+
+## 🖥 Common
+|역할|종류|
+|-|-|
+|협업 관리|![notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white) ![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)| 
+|디자인|![figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)|
+|Version Control|![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)|
+
+<br />
+
 
