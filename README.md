@@ -27,7 +27,9 @@ Through conversation, Kiumee not only handles orders like traditional staff but 
 
 # 🤖 포스터
 
-![내부포스터](https://github.com/user-attachments/assets/e0f6e025-0264-40a7-add1-4c1c9c721dd0)
+![내부포스터_3](https://github.com/user-attachments/assets/5ce25863-af12-4bd4-8f3a-be7243606e35)
+
+![_포스터](https://github.com/user-attachments/assets/69b07487-171c-40b7-8407-3fcda47b6395)
 
 # 🤖 프로젝트 기능
 
