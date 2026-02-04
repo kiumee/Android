@@ -135,6 +135,7 @@ class MenuActivity : BindingActivity<ActivityMenuBinding>(R.layout.activity_menu
 
             override fun onError(utteranceId: String?) {
                 // 음성 재생 중 오류가 발생하면
+                Timber.tag("tts").d("재생 오류")
             }
         })
     }
